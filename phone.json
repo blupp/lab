@@ -1,0 +1,10 @@
+{
+  "play": "http://bjorkelid.com/lab/welcome.mp3",
+  "next": {
+    "connect": "+46739280357",
+	"callerid": "+46766860051"
+    "busy": {
+      "play": "http://bjorkelid.com/lab/sorry.mp3"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<div id="controll">
+	<h2>States</h2>
+	
+	<h4>Tapped once</h4>
+	<li class="state">100%</li>
+	<li class="state">75% - 100%</li>
+	<li class="state">50% - 75%</li>
+	<li class="state">25% - 50%</li>
+	<li class="state">5% - 25%</li>
+	
+	<h4>Need attention</h4>
+	<li class="state">5%</li>
+	<li class="state">Out of storage</li>
+	
+	<h4>Sleep / wake up</h4>
+	<li class="state">Power on</li>
+	<li class="state">Power off</li>
+	
+	<h4>Other</h4>
+	<li class="state">Double tapped</li>
+	<li class="state">Charging</li>
+	<li class="state">Plugged out</li>
+</div>
+
+<div id="wrapper">
+
+	<div id="camera">
+		<li class="led" id="led-1"></li>
+		<li class="led" id="led-2"></li>
+		<li class="led" id="led-3"></li>
+		<li class="led" id="led-4"></li>
+	</div>
+
+	<div id="info">
+		<p id="i100"><b>100% battery status</b> Light up the LEDs one by one to simulate current flowing in the battery</p>
+		<p id="i75-100"><b>75% - 100% battery status</b> Light up the LEDs one by one to simulate current flowing in the battery. Blink with the last one.</p>
+		<p id="i50-75"><b>50% - 75% battery status</b> Light up the LEDs one by one to simulate current flowing in the battery. Blink with the last one.</p>
+		<p id="i25-50"><b>25% - 50% battery status</b> Light up the LEDs one by one to simulate current flowing in the battery. Blink with the last one.</p>
+		<p id="i5-25"><b>5% - 25% battery status</b> Light up the LEDs one by one to simulate current flowing in the battery. Blink with the last one.</p>
+		<p id="i5"><b>0 - 5% battery status</b> Blink with the first LED to show that you need to charge your Memoto soon</p>
+
+		<p id="ipoweron"><b>Power on</b> Start at 0 and fade all LEDs to 100 to simulate that it is waking up</p>
+		<p id="ipoweroff"><b>Power off</b> Start at 100 and fade all LEDs to 0 to simulate that it is going to sleep (in a pocket or laying flat)</p>
+
+		<p id="idoubletapped"><b>Double tapped</b> 4,3,2,1 Smile! Photo is taken when all LEDs light up at the end</p>
+		<p id="ioutofstorage"><b>Out of storage</b> Fade from 0 to 100 and back again to show that it is soon out of storage. This is by purpuse simular to the "out of battery" state because the end result for the user is that he needs to connect it to a computer as soon as possible.</p>
+		<p id="icharging"><b>Charging</b> When connected to a computer or other power. Light up all LEDs and then act as tapped.</p>
+		<p id="ipluggedout"><b>Plugged out</b> Blink once to indicate that it working</p>
+	</div>
+
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="script/main.js"></script>
+</body>
+</html>

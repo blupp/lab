@@ -1,0 +1,243 @@
+
+body {
+	background: #F2F2F2;
+	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial;
+}
+
+h2 {
+	color: #4A4A4A;
+}
+
+#title {
+	width: 100%;
+	height: 350px;
+	background: url(../img/titlebg2.png);
+	background-size: cover;
+}
+
+#title a {
+	color: white;
+	text-decoration: none;
+}
+
+#title a:hover {
+	text-decoration: underline;
+}
+
+#cta_top {
+	margin-top: 100px; 
+}
+
+#maintitle img {
+	width: 400px;
+}
+
+#box {
+	width: 230px;
+    height: 85px;
+    background: #80BB3F;
+    border: 1px solid white;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding-top: 16px;
+}
+
+#box b {
+	font-size: 20px;
+}
+
+#underbox {
+	color: white;
+	font-size: 12px;
+	padding-top: 5px;
+	width: 230px;
+	text-align: right;
+}
+
+#underbox a {
+	text-decoration: underline;
+}
+
+
+#top {
+	padding-top: 20px;
+}
+
+#top a {
+	margin-left: 25px;
+}
+
+#trust {
+	margin-top: 30px;
+	color: grey;
+}
+
+.divider {
+	width: 100%;
+	margin-top: 30px;
+	height: 1px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.row h2 {
+	font-size: 16px;
+	padding: 20px 0 25px 0;
+}
+
+#specialities img {
+	width: 170px;
+}
+
+#specialities .col-md-4 {
+	text-align: center;
+}
+
+#specialities a {
+	font-size: 22px;
+    padding-top: 20px;
+    display: block;
+}
+
+#testimonials {
+	background-color: #80BB3F;
+	width: 100%;
+	margin-top: 75px;
+	color: white;
+	text-align: center;
+	padding: 10px 0 35px 0;
+}
+
+#testimonials h2 {
+	font-size: 18px;
+	color: white;
+	font-weight: 300;
+}
+
+#testimonials .row {
+	margin: 10px 0 25px 0;
+}
+
+#testimonials img {
+	width: 75px;
+	margin-bottom: 10px;
+}
+
+#testimonials .quote {
+	font-style: italic;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+#services h3 {
+	font-size: 20px;
+}
+
+#services .col-md-4 {
+	margin-bottom: 30px;
+}
+
+#photos img {
+	width: 200px;
+	border: 1px solid lightgrey;
+	padding: 7px;
+	box-shadow: 1px 1px 1px #EEE;
+}
+
+#map {
+	height: 300px;
+}
+
+#footer {
+	margin-top: 50px;
+	background-color: #6E9DD4;
+	color: white;
+	height: 300px;
+	padding-top: 50px;
+	font-weight: 300;
+}
+
+#footer .info {
+	font-size: 18px;
+}
+
+#footer .cta #box, #footer .cta #underbox  {
+	margin: 0 auto;
+}
+
+#footer a {
+	color: white;
+}
+
+
+
+/* BOOTSTRAP OVERRIDE */
+
+div.row {
+	margin-left: 50px;
+	margin-top: 25px;
+    margin-right: 50px;
+
+}
+
+#content {
+	background: white;
+	width: 850px;
+	margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen 
+  and (min-device-width: 0px) 
+  and (max-device-width: 667px) 
+   { 
+
+  #content {
+	width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+#maintitle img {
+	width: 100%;
+}
+#box {
+	margin-top: 50px;
+}
+#cta_top {
+	margin-top: 50px;
+}
+#autoexperten {
+	margin-bottom: 50px;
+}
+#specialities img {
+    width: 150px;
+}
+#specialities .col-md-4 {
+	margin-bottom: 40px;
+}
+#firsttesto {
+	margin-bottom: 40px;
+}
+#photos img {
+	margin-bottom: 20px;
+}
+#footer {
+	height: 450px;
+}
+#footer .cta {
+	margin-top: 40px;
+}
+
+
+}
+
+
+

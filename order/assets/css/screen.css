@@ -1,0 +1,205 @@
+@font-face {
+  font-family: Colfax;
+  src: url('../font/ColfaxWebRegular.woff'), url('../font/ColfaxWebRegular.eot');
+}
+html {
+  margin: 0;
+  padding: 0;
+  background: #fbfbfb;
+  color: #000;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Colfax', Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  text-align: center;
+}
+a {
+  color: #2ce1a6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.button {
+  padding: 15px 25px;
+  background: #ccc;
+  color: #fff;
+  border-radius: 8px;
+}
+a.button:hover,
+a.button:focus {
+  background: #14e2a5;
+  text-decoration: none;
+}
+a.focus {
+  background: #24c595;
+}
+a.focus:hover,
+a.focus:focus {
+  background: #14e2a5;
+}
+p {
+  padding: 1em 0;
+  color: #61656b;
+}
+hr {
+  margin: 0 auto;
+  padding: 1em 0;
+  width: 630px;
+  height: 0;
+  border: 0;
+  border-bottom: solid 4px #eee;
+}
+.center {
+  text-align: center;
+}
+header {
+  position: relative;
+  height: 10px;
+}
+header .left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background: #ffa64d;
+  z-index: 1;
+}
+header .center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -480px;
+  width: 960px;
+  background: #e15f5f;
+  z-index: 2;
+}
+header .right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background: #2ce1a6;
+  z-index: 1;
+}
+section {
+  margin: 50px auto;
+  width: 960px;
+  text-align: center;
+}
+#logotype {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+#logotype img {
+  margin: 0 auto;
+  display: block;
+}
+#logotype h1 {
+  width: 166px;
+  height: 60px;
+  background: url(../img/Logo.png) no-repeat;
+  text-indent: -9000em;
+  margin: 0 auto;
+}
+#content {   color: #272b32; }
+
+#container {
+  background: white;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  width: 480px;
+  padding: 50px;
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0 auto;
+
+}
+
+#content h1 {
+  font-size: 32px;
+}
+
+#content h1.red {
+  color: #e15f5f;
+}
+
+#content h2 {
+  color: #272b32;
+  font-size: 18px;
+}
+
+#content p {
+  color: #a4a3a3;
+  font-size: 14px;
+}
+
+#mailContainer {
+  background: white;
+  border-bottom: 4px solid #efefef;
+  border-radius: 10px;
+  width: 720px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#mailContainer button {
+  width: 130px;
+  height: 45px;
+  background: #24c595;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Colfax;
+}
+
+#mailContainer button:hover {
+  background: #14e2a5;
+}
+
+#mailContainer input {
+  width: 570px;
+  height: 45px;
+  background: white;
+  color: #272b32;
+  font-size: 32px;
+  border: 0;
+  font-family: Colfax;
+}
+
+#content p.error {
+  color: #e15f5f;
+  font-size: 18px;
+  display: none;
+}
+
+#content p.error a {
+  color: #e15f5f;
+  text-decoration: underline;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder { color:#9fa0a0; }
+::-moz-placeholder { color:#9fa0a0; } /* firefox 19+ */
+:-ms-input-placeholder { color:#9fa0a0; } /* ie */
+input:-moz-placeholder { color:#9fa0a0; }
+
+

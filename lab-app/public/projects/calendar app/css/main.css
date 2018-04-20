@@ -1,0 +1,25 @@
+
+body {
+	margin: 0;
+	Abackground: url(../bg2.png) fixed no-repeat;
+}
+
+#wrapper {
+	
+	width: 320px;
+	height: 2000px;
+}
+
+#header {
+	position: fixed;
+	opacity: 0.95;
+}
+
+#header img {
+	width: 320px;
+}
+
+#exit {
+	position: fixed;
+	bottom: 0;
+}

@@ -1,0 +1,39 @@
+body {
+	margin-top: 20px;
+}
+
+select {
+	margin-bottom: 15px;
+	font-size: 21px;
+	font-weight: 200;
+	border: 0;
+	height: 40px;
+}
+
+option {
+	font-size: 30px;
+}
+
+p a {
+	font-size: 14px;
+}
+
+input {
+	border: 0;
+	padding: 3px;
+	border-radius: 4px;
+	background: white;
+}
+
+#trip_template {
+	display: none;
+}
+
+.travelers {
+	padding-left: 20px;
+	border-left: 20px solid lightgray;
+}
+
+#result {
+	font-size: 21px;
+}

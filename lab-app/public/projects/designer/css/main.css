@@ -1,0 +1,42 @@
+
+body {
+	margin: 0;
+	background: #f27b23;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Cardo', serif;
+	font-size: 72px;
+	margin-top: 20%;
+	margin-bottom: 120px;
+}
+
+h2 {
+	font-family: 'Cardo', serif;
+	font-size: 24px;
+	margin-bottom: 0px;
+	margin-top: 60px;
+}
+
+p {
+	font-family: 'Garamond';
+	width: 570px;
+	display: inline-block;
+	line-height: 25px;
+	font-size: 18px;
+}
+p.list {
+	line-height: 35px;
+}
+
+a {
+	color: white;
+	font-weight: bold;
+}
+
+img {
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
