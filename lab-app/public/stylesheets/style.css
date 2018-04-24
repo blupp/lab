@@ -1,8 +1,69 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background: white;
+	padding: 0;
+	margin: 0;
+  font-family: 'Helvetica Neue';
+  color: #2F2F2F;
+  text-align: center;
+}
+
+#logo {
+  margin: 120px;
+}
+
+#projects {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
 }
+
+.project {
+  width: 220px;
+  height: 146px;
+  background-color: #3B9395;
+  display: inline-block;
+  margin-right: 65px;
+  margin-bottom: 65px;
+  position: relative;
+}
+
+.project:hover {
+  opacity: 0.9;
+}
+
+.projectLink:nth-child(5n-3) div {
+  background-color: #F6807E;
+}
+
+.projectLink:nth-child(5n-2) div {
+  background-color: #B7D33D;
+}
+
+.projectLink:nth-child(5n-1) div {
+  background-color: #E1C7A6;
+}
+
+.projectLink:nth-child(5n) div {
+  background-color: #FD872F;
+}
+
+.projectLink:nth-child(3n+3) div {
+  margin-right: 0;
+}
+
+.projectTitle {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  font-weight: light;
+  text-transform: uppercase;
+}
+

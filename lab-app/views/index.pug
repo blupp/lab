@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= "LABz"
-  p Welcome to #{title}
+  #logo
+    img(src="images/logo.jpg")
+  #projects
+    each project in projects
+      a.projectLink(href="projects/"+project)
+        .project
+          .projectTitle
+            p #{project}
